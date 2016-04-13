@@ -1,0 +1,17 @@
+body    {background-color: #e5e5e5;
+        color: gray;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+        margin-right: 15%;}
+
+.container  {width: 100%;
+            display: inline-flex;
+            display: -webkit-flex;
+            justify-content: space-between;}
+
+.headleft  {text-align: left;}
+
+.headright  {text-align: right;}
+
+.fright {float: right;}
