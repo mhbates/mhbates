@@ -1,17 +1,107 @@
-body    {background-color: #e5e5e5;
-        color: gray;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 15%;
-        margin-right: 15%;}
+@font-face {
+    font-family: 'Prototype';
+    src: url('Prototype.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
-.container  {width: 100%;
-            display: inline-flex;
-            display: -webkit-flex;
-            justify-content: space-between;}
+body    {
+    background-color: #F8F8FF;
+    width: 100%;
+    font-family: 'Prototype';
+    font-weight: normal;
+    font-size: 1vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;   
+} 
 
-.headleft  {text-align: left;}
+footer  {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.75vw;
+    font-family: 'Prototype';
+}
 
-.headright  {text-align: right;}
+.container  {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
-.fright {float: right;}
+.bodyContainer  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.homeText {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectText {
+    width: 30%;
+    margin: auto;
+}
+
+.projectText ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projectImage {
+    width: 75%;
+}
+
+.headerContainer    {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+
+.headerContainer ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.left   {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+li a    {display: block;
+        text-decoration: none;
+        padding: 15px;
+        text-align: center;}
+
+a.current:link, a.current:visited  {
+    color: #6E6E6E;
+}        
+
+a:link, a:visited    {
+    color: black;
+}      
+
+a:hover  {
+    color: #6E6E6E;
+}
+
