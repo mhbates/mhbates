@@ -8,23 +8,22 @@
 body    {
     background-color: #F8F8FF;
     width: 100%;
+    height: 100%;
     font-family: 'Prototype';
     font-weight: normal;
-    font-size: 1vw;
     overflow-x: hidden;
     margin: 0;
-    padding: 0;   
+    padding: 0;
 } 
 
 footer  {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    font-size: 0.75vw;
     font-family: 'Prototype';
+    border-top: solid;
+    border-top-width: 1px;
 }
 
 .container  {
@@ -45,23 +44,25 @@ footer  {
 }
 
 .homeText {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.projectText {
-    width: 30%;
+    width: 35%;
     margin: auto;
 }
 
-.projectText ul {
+.homeText ul {
     list-style: none;
     padding: 0;
 }
 
-.projectImage {
-    width: 75%;
+.homePhoto {
+    height: 150px;
+}
+
+.aboutPhoto {
+    height: 200px;
+}
+
+.projectPhoto {
+    width: 500px;
 }
 
 .headerContainer    {
@@ -105,3 +106,123 @@ a:hover  {
     color: #6E6E6E;
 }
 
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1800px) {
+     .projectPhoto {
+        width: 400px;
+    }   
+}
+
+@media only screen and (max-width: 1500px) {
+    .homeText {
+    width: 40%;
+    }
+    .homePhoto {
+        height: 125px;
+    }
+     .projectPhoto {
+        width: 300px;
+    }   
+}
+
+@media only screen and (max-width: 1200px) {
+    .homeText {
+    width: 45%;
+    }
+    .homePhoto {
+        height: 100px;
+    }
+
+    .aboutPhoto {
+        height: 150px;
+    }
+
+    .projectPhoto {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .homeText {
+    width: 55%;
+    }
+    .aboutPhoto {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    body    {
+        font-size: 0.75em;
+    }
+    .homeText {
+    width: 55%;
+    }
+    .homePhoto {
+        height: 100px;
+    }
+
+    .aboutPhoto {
+        height: 100px;
+    }
+
+    .projectPhoto {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body    {
+        font-size: 0.5em;
+    }
+    .homeText {
+    width: 55%;
+    }
+    .homePhoto {
+        height: 75px;
+    }
+
+    .aboutPhoto {
+        height: 100px;
+    }
+
+    .projectPhoto {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body    {
+        font-size: 0.3em;
+    }
+    .homeText {
+    width: 55%;
+    }
+    .homePhoto {
+        height: 50px;
+    }
+
+    .aboutPhoto {
+        height: 75px;
+    }
+
+    .projectPhoto {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    body    {
+        font-size: 0.2em;
+    }
+    .homeText {
+    width: 55%;
+    }
+}
