@@ -15,9 +15,9 @@
                     <li class="right"><a href="mailto:matt@mhbates.com">Contact</a></li>
                     <li class="right"><a href="https://www.linkedin.com/in/matthew-hathaway-bates-60198865" target="_blank">LinkedIn</a></li>
                     <li class="right"><a href="https://github.com/mhbates" target="_blank">GitHub</a></li>
-                    <li class="right"><a href="projects.html">Projects</a></li>
-                    <li class="right"><a href="about.html">About</a></li>
-                    <li class="right"><a href="index.html" class="current">Home</a></li>
+                    <li class="right"><a href="projects.php">Projects</a></li>
+                    <li class="right"><a href="about.php">About</a></li>
+                    <li class="right"><a href="index.php" class="current">Home</a></li>
                 </ul>
             </div>
             <div class="bodyContainer">
