@@ -14,7 +14,7 @@
                     <li class="right"><a href="https://www.linkedin.com/in/matthew-hathaway-bates-60198865" target="_blank">LinkedIn</a></li>
                     <li class="right"><a href="https://github.com/mhbates" target="_blank">GitHub</a></li>
                     <li class="right"><a href="projects/">Projects</a></li>
-                    //<li class="right"><a href="about/">About</a></li>
+                    <!-- <li class="right"><a href="about/">About</a></li> -->
                     <li class="right"><a href="." class="current">Home</a></li>
                 </ul>
             </div>
